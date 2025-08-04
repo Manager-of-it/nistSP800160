@@ -1,0 +1,108 @@
+import spacy
+import csv
+import os
+
+from spacy.matcher import PhraseMatcher
+from spacy.matcher import Matcher
+
+# === CONFIGURATION ===
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+print(f"BASE_DIR: {BASE_DIR}")
+KEYWORD_FILE = os.path.join(BASE_DIR, "data/keyword_file.txt")
+CONTROL_CSV = os.path.join(BASE_DIR, "data/NIST_SP-800-53_rev5_catalog_load.csv")
+CONTROL_TEXT_COLUMN = "control_text"
+
+# === LOAD SPACY MODEL ===
+nlp = spacy.load("en_core_web_sm")
+
+# === LOAD KEYWORDS / PHRASES ===
+with open(KEYWORD_FILE, "r", encoding="utf-8") as f:
+    keywords = [line.strip() for line in f if line.strip()]
+
+# Convert phrases to spaCy docs
+phrase_patterns = [nlp.make_doc(text) for text in keywords]
+
+# Create PhraseMatcher for exact matches
+phrase_matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
+phrase_matcher.add("KEYWORDS", phrase_patterns)
+
+# Create Matcher for lemma/root matches
+matcher = Matcher(nlp.vocab)
+for keyword in keywords:
+    pattern = [{"LEMMA": token.lemma_} for token in nlp(keyword)]
+    matcher.add("FUZZY_KEYWORDS", [pattern])
+
+# === READ CONTROL TEXTS AND MATCH ===
+matches_found = []
+
+with open(CONTROL_CSV, newline="", encoding="utf-8") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        control_text = row[CONTROL_TEXT_COLUMN]
+        doc = nlp(control_text)
+        exact_matches = phrase_matcher(doc)
+        fuzzy_matches = matcher(doc)
+
+        matched_phrases = []
+#        matched_phrases = list(set([doc[start:end].text for match_id, start, end in exact_matches]))
+        matched_fuzzy = list(set([doc[start:end].text for match_id, start, end in fuzzy_matches]))    
+        
+        all_matches = list(set(matched_phrases + matched_fuzzy))
+
+        if all_matches:
+            matches_found.append({
+                "identifier": row.get("identifier", "N/A"),
+                "control_text": control_text,
+                "matches": all_matches
+            })
+
+CONTROL_IDS_FILE = os.path.join(BASE_DIR, "data/controls_ids.txt")
+
+with open(CONTROL_IDS_FILE, "r", encoding="utf-8") as f:
+    control_ids_800_160 = [line.strip() for line in f if line.strip()]
+
+
+
+# === OUTPUT RESULTS ===
+print("RESULTS-----")
+
+MATCH_DEPTH = 3  # Set the depth threshold for matches
+
+for entry in matches_found:
+    if len(entry['matches']) > MATCH_DEPTH:  # Only print if more than MATCH_DEPTH matches
+        print(f"ID: {entry['identifier']}")
+        print(f"Control: {entry['control_text']}")
+        print(f"Matches: {entry['matches']}")
+        print("-" * 50)
+
+print("SUMMARY-----")
+print(f"Number of matches found > {MATCH_DEPTH}:", len([e for e in matches_found if len(e['matches']) > MATCH_DEPTH]))
+identifiers = [entry['identifier'] for entry in matches_found if len(entry['matches']) > MATCH_DEPTH]
+print(f"Identifiers with >{MATCH_DEPTH} match:", ", ".join(identifiers))
+
+
+print(f"Imported control IDs from 800-160 [{len(control_ids_800_160)}]: {control_ids_800_160}")
+
+# Compare control_ids_800_160 to matches_found['identifier']
+
+matched_ids = set(entry['identifier'] for entry in matches_found)
+control_ids_800_160_set = set(control_ids_800_160)
+
+# Filter matched_ids by MATCH_DEPTH
+filtered_matched_ids = set(entry['identifier'] for entry in matches_found if len(entry['matches']) > MATCH_DEPTH)
+
+# Matches: in both lists
+matches = filtered_matched_ids & control_ids_800_160_set
+
+# Left misses: in control_ids but not in filtered matches_found
+left_misses = control_ids_800_160_set - filtered_matched_ids
+
+# Right misses: in filtered matches_found but not in control_ids_800_160
+right_misses = filtered_matched_ids - control_ids_800_160_set
+
+print(f"Matches (in both) [{len(matches)}]: {', '.join(matches)}")
+print(f"Left misses (in control_ids_800_160 only) [{len(left_misses)}]: {', '.join(left_misses)}")
+print(f"Right misses (in matches_found only) [{len(right_misses)}]: {', '.join(right_misses)}")
+
+

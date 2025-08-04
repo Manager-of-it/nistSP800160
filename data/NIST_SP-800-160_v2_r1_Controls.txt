@@ -1,0 +1,633 @@
+AC-2(6) ACCOUNT MANAGEMENT | DYNAMIC PRIVILEGE MANAGEMENT
+Privilege Restriction [Dynamic Privileges]
+Adaptive Response [Dynamic Reconfiguration]
+AC-2(8) ACCOUNT MANAGEMENT | DYNAMIC ACCOUNT MANAGEMENT
+Adaptive Response [Dynamic Resource Management]
+Allocation, Dynamic Reconfiguration, Adaptive
+Privilege Restriction [Dynamic Privileges]
+AC-2(12) ACCOUNT MANAGEMENT | ACCOUNT MONITORING FOR ATYPICAL USAGE
+Analytic Monitoring [Monitoring and Damage Assessment]
+Substantiated Integrity [Behavior Validation]
+AC-3(2) ACCESS ENFORCEMENT | DUAL AUTHORIZATION 
+Privilege Restriction [Trust-Based Privilege Management]
+AC-3(7) ACCESS ENFORCEMENT | ROLE-BASED ACCESS CONTROL
+Privilege Restriction [Attribute-Based Usage Restriction]
+AC-3(11) ACCESS ENFORCEMENT | RESTRICT ACCESS TO SPECIFIC INFORMATION TYPES
+Privilege Restriction [Attribute-Based Usage Restriction]
+AC-3(12) ACCESS ENFORCEMENT | ASSERT AND ENFORCE APPLICATION ACCESS
+Privilege Restriction [Attribute-Based Usage Restriction]
+AC-3(13) ACCESS ENFORCEMENT | ATTRIBUTE-BASED ACCESS CONTROL
+Privilege Restriction [Attribute-Based Usage Restriction]
+AC-4(2) INFORMATION FLOW ENFORCEMENT | PROCESSING DOMAINS
+Segmentation [Predefined Segmentation]
+AC-4(3) INFORMATION FLOW ENFORCEMENT | DYNAMIC INFORMATION FLOW CONTROL
+Adaptive Response [Dynamic Reconfiguration, Adaptive Management]
+AC-4(8) INFORMATION FLOW ENFORCEMENT | SECURITY AND PRIVACY POLICY FILTERS
+Substantiated Integrity [Integrity Checks]
+AC-4(12) INFORMATION FLOW ENFORCEMENT | DATA TYPE IDENTIFIERS
+Substantiated Integrity [Integrity Checks]
+AC-4(17) INFORMATION FLOW ENFORCEMENT | DOMAIN AUTHENTICATION
+Substantiated Integrity [Provenance Tracking]
+AC-4(21) INFORMATION FLOW ENFORCEMENT | PHYSICAL OR LOGICAL SEPARATION OF INFORMATION FLOWS
+Segmentation [Predefined Segmentation]
+AC-4(27) INFORMATION FLOW ENFORCEMENT | REDUNDANT/INDEPENDENT FILTERING MECHANISMS
+Diversity [Design Diversity]
+Redundancy [Replication]
+AC-4(29) INFORMATION FLOW ENFORCEMENT | FILTER ORCHESTRATION ENGINES
+Coordinated Protection [Orchestration]
+AC-4(30) INFORMATION FLOW ENFORCEMENT | FILTER MECHANISMS USING MULTIPLE PROCESSES
+Diversity [Design Diversity]
+Redundancy [Replication]
+AC-6 LEAST PRIVILEGE 
+Privilege Restriction [Trust-Based Privilege Management, Attribute-Based Usage Restriction]
+AC-6(1) LEAST PRIVILEGE | AUTHORIZE ACCESS TO SECURITY FUNCTIONS
+Privilege Restriction [Attribute-Based Usage Restriction]
+AC-6(2) LEAST PRIVILEGE | NON-PRIVILEGED ACCESS FOR NONSECURITY FUNCTIONS
+Privilege Restriction [Trust-Based Privilege Management]
+Realignment [Purposing]
+AC-6(3) LEAST PRIVILEGE | NETWORK ACCESS TO PRIVILEGED COMMANDS
+Privilege Restriction [Trust-Based Privilege Management]
+AC-6(4) LEAST PRIVILEGE | SEPARATE PROCESSING DOMAINS
+Privilege Restriction [Trust-Based Privilege
+Management, Attribute-Based Usage Restriction]
+Segmentation [Predefined Segmentation]
+AC-6(5) LEAST PRIVILEGE | PRIVILEGED ACCOUNTS 
+Privilege Restriction [Trust-Based Privilege Management]
+AC-6(6) LEAST PRIVILEGE | PRIVILEGED ACCESS BY NON- ORGANIZATIONAL USERS
+Privilege Restriction [Trust-Based Privilege Management]
+AC-6(7) LEAST PRIVILEGE | REVIEW OF USER PRIVILEGES 
+Coordinated Protection [Consistency Analysis]
+Privilege Restriction [Trust-Based Privilege Management]
+AC-6(8) LEAST PRIVILEGE | PRIVILEGE LEVELS FOR CODE EXECUTION
+Privilege Restriction [Attribute-Based Usage
+Restriction, Dynamic Privileges]
+AC-6(10) LEAST PRIVILEGE | PROHIBIT NON-PRIVILEGED USERS FROM EXECUTING PRIVILEGED FUNCTIONS
+Privilege Restriction [Attribute-Based Usage Restriction, Trust-Based Privilege Management]
+AC-7(4) UNSUCCESSFUL LOGON ATTEMPTS | USE OF ALTERNATE AUTHENTICATION FACTOR
+Diversity [Path Diversity]
+AC-12 SESSION TERMINATION 
+Non-Persistence [Non-Persistent Services]
+AC-23 DATA MINING PROTECTION 
+Analytic Monitoring [Monitoring and Damage Assessment]
+Privilege Restriction [Trust-Based Privilege Management, Attribute-Based Usage Restriction, Dynamic Privileges]
+AT-2(1) AWARENESS TRAINING | PRACTICAL EXERCISES 
+Contextual Awareness [Dynamic Threat Awareness]
+Coordinated Protection [Self-Challenge]
+AT-2(3) AWARENESS TRAINING | SOCIAL ENGINEERING AND MINING
+Contextual Awareness [Dynamic Threat Awareness]
+AT-2(5) AWARENESS TRAINING | ADVANCED PERSISTENT THREAT
+Contextual Awareness [Dynamic Threat Awareness]
+AT-3(3) ROLE-BASED TRAINING | PRACTICAL EXERCISES 
+Contextual Awareness [Dynamic Threat Awareness]
+Coordinated Protection [Self-Challenge]
+AU-5(3) RESPONSE TO AUDIT PROCESSING FAILURES | CONFIGURABLE TRAFFIC VOLUME THRESHOLDS
+Adaptive Response [Dynamic Resource Allocation, Adaptive Management]
+AU-6 AUDIT RECORD REVIEW, ANALYSIS, AND REPORTING
+Adaptive Response [Adaptive Management]
+Analytic Monitoring [Monitoring and Damage Assessment]
+Substantiated Integrity [Behavior Validation]
+AU-6(3) AUDIT RECORD REVIEW, ANALYSIS, AND REPORTING | CORRELATE AUDIT REPOSITORIES
+Analytic Monitoring [Sensor Fusion and Analysis]
+AU-6(5) AUDIT RECORD REVIEW, ANALYSIS, AND REPORTING | INTEGRATED ANALYSIS OF AUDIT RECORDS
+Analytic Monitoring [Sensor Fusion and Analysis]
+AU-6(6) AUDIT RECORD REVIEW, ANALYSIS, AND REPORTING | CORRELATION WITH PHYSICAL MONITORING
+Analytic Monitoring [Sensor Fusion and Analysis]
+AU-6(8) AUDIT RECORD REVIEW, ANALYSIS, AND REPORTING | FULL TEXT ANALYSIS OF PRIVILEGED COMMANDS
+Analytic Monitoring [Monitoring and Damage Assessment]
+Segmentation [Predefined Segmentation]
+AU-6(9) AUDIT RECORD REVIEW, ANALYSIS, AND REPORTING | CORRELATION WITH INFORMATION FROM NONTECHNICAL SOURCES
+Analytic Monitoring [Sensor Fusion and Analysis]
+AU-9(1) PROTECTION OF AUDIT INFORMATION | HARDWARE WRITE-ONCE MEDIA
+Substantiated Integrity [Integrity Checks]
+AU-9(2) PROTECTION OF AUDIT INFORMATION | STORE ON SEPARATE PHYSICAL SYSTEMS AND COMPONENTS
+Segmentation [Predefined Segmentation]
+AU-9(3) PROTECTION OF AUDIT INFORMATION | CRYPTOGRAPHIC PROTECTION
+Substantiated Integrity [Integrity Checks]
+AU-9(5) PROTECTION OF AUDIT INFORMATION | DUAL AUTHORIZATION
+Privilege Restriction [Trust-Based Privilege Management]
+AU-9(6) PROTECTION OF AUDIT INFORMATION | READ- ONLY ACCESS
+Privilege Restriction [Trust-Based Privilege Management, Attribute-Based Usage Restriction]
+Substantiated Integrity [Integrity Checks]
+AU-9(7) PROTECTION OF AUDIT INFORMATION | STORE ON COMPONENT WITH DIFFERENT OPERATING SYSTEM
+Diversity [Architectural Diversity]
+AU-10(2) NON-REPUDIATION | VALIDATE BINDING OF INFORMATION PRODUCER IDENTITY
+Substantiated Integrity [Provenance Tracking]
+AU-13 MONITORING FOR INFORMATION DISCLOSURE 
+Adaptive Response [Adaptive Management]
+Analytic Monitoring [Monitoring and Damage Assessment]
+AU-13(3) MONITORING FOR INFORMATION DISCLOSURE | UNAUTHORIZED REPLICATION OF INFORMATION ASSESSMENT, AUTHORIZATION, AND MONITORING
+Analytic Monitoring [Monitoring and Damage Assessment]
+CA-7(3) CONTINUOUS MONITORING | TREND ANALYSES 
+Contextual Awareness [Dynamic Resource Awareness, Dynamic Threat Awareness]
+CA-7(5) CONTINUOUS MONITORING | CONSISTENCY ANALYSIS
+Coordinated Protection [Consistency Analysis]
+CA-7(6) CONTINUOUS MONITORING | AUTOMATION SUPPORT FOR MONITORING
+Analytic Monitoring [Monitoring and Damage Assessment]
+CA-8 PENETRATION TESTING 
+Coordinated Protection [Self-Challenge]
+CA-8(1) PENETRATION TESTING | INDEPENDENT PENETRATION TESTING AGENT OR TEAM
+Coordinated Protection [Self-Challenge]
+CA-8(2) PENETRATION TESTING | RED TEAM EXERCISES 
+Coordinated Protection [Self-Challenge]
+CA-8(3) PENETRATION TESTING | FACILITY PENETRATION TESTING
+Coordinated Protection [Self-Challenge]
+CM-2(7) BASELINE CONFIGURATION | CONFIGURE SYSTEMS AND COMPONENTS FOR HIGH-RISK AREAS
+Analytic Monitoring [Monitoring and Damage Assessment, Forensic and Behavioral Analysis]
+Realignment [Restriction]
+CM-4(1) IMPACT ANALYSES | SEPARATE TEST ENVIRONMENTS
+Segmentation [Predefined Segmentation]
+CM-5(4) ACCESS RESTRICTIONS FOR CHANGE | DUAL AUTHORIZATION
+Privilege Restriction [Trust-Based Privilege Management]
+CM-5(5) ACCESS RESTRICTIONS FOR CHANGE | PRIVILEGE LIMITATION FOR PRODUCTION AND OPERATION
+Privilege Restriction [Trust-Based Privilege Management]
+CM-5(6) ACCESS RESTRICTIONS FOR CHANGE | LIMIT LIBRARY PRIVILEGES
+Privilege Restriction Trust-Based Privilege Management]
+CM-7(2) LEAST FUNCTIONALITY | PREVENT PROGRAM EXECUTION
+Realignment [Restriction]
+CM-7(4) LEAST FUNCTIONALITY | UNAUTHORIZED SOFTWARE
+Realignment [Purposing]
+CM-7(5) LEAST FUNCTIONALITY | AUTHORIZED SOFTWARE 
+Privilege Restriction [Trust-Based Privilege Management]
+Realignment [Purposing]
+CM-7(6) LEAST FUNCTIONALITY | CONFINED ENVIRONMENTS WITH LIMITED PRIVILEGES
+Privilege Restriction [Trust-Based Privilege Management]
+Segmentation [Predefined Segmentation, Dynamic Segmentation and Isolation]
+CM-7(7) LEAST FUNCTIONALITY | CODE EXECUTION IN PROTECTED ENVIRONMENTS
+Segmentation [Predefined Segmentation]
+CM-8(3) SYSTEM COMPONENT INVENTORY | AUTOMATED UNAUTHORIZED COMPONENT DETECTION
+Analytic Monitoring [Monitoring and Damage Assessment]
+CM-14 SIGNED COMPONENTS CONTINGENCY PLANNING
+Substantiated Integrity [Integrity Checks, Provenance Tracking]
+CP-2(1) CONTINGENCY PLAN | COORDINATE WITH RELATED PLANS
+Coordinated Protection [Consistency Analysis]
+CP-2(5) CONTINGENCY PLAN | CONTINUE MISSIONS AND BUSINESS FUNCTIONS
+Coordinated Protection [Orchestration]
+Adaptive Response [Dynamic Reconfiguration, Adaptive Management]
+CP-2(8) CONTINGENCY PLAN | IDENTIFY CRITICAL ASSETS 
+Contextual Awareness [Mission Dependency and Status Visualization]
+CP-4(5) SELF-CHALLENGE 
+Coordinated Protection [Self-Challenge]
+CP-8(3) TELECOMMUNICATIONS SERVICES | SEPARATION OF PRIMARY AND ALTERNATE PROVIDERS
+Diversity [Architectural Diversity]
+CP-9 SYSTEM BACKUP 
+Redundancy [Protected Backup and Restore]
+CP-9(1) SYSTEM BACKUP | TESTING FOR RELIABILITY AND INTEGRITY
+Coordinated Protection [Self-Challenge]
+Redundancy [Protected Backup and Restore]
+Substantiated Integrity [Integrity Checks]
+CP-9(6) SYSTEM BACKUP | REDUNDANT SECONDARY SYSTEM
+Redundancy [Replication]
+CP-9(7) SYSTEM BACKUP | DUAL AUTHORIZATION 
+Privilege Restriction [Trust-Based Privilege Management]
+CP-9(8) SYSTEM BACKUP | CRYPTOGRAPHIC PROTECTION Deception [ Obfuscation]
+Redundancy [Protected Backup and Restore]
+Substantiated Integrity [Integrity Checks]
+CP-11 ALTERNATE COMMUNICATIONS PROTOCOLS 
+Diversity [Architectural Diversity, Design Diversity]
+CP-12 SAFE MODE Adaptive Response [Adaptive Management]
+Realignment [Restriction]
+CP-13 ALTERNATIVE SECURITY MECHANISMS 
+Diversity [Architectural Diversity, Design
+Diversity] Adaptive Response [Adaptive Management]
+IA-2(6) IDENTIFICATION AND AUTHENTICATION | ACCESS TO ACCOUNTS – SEPARATE DEVICE
+Diversity [Path Diversity]
+Coordinated Protection [Calibrated Defense-in- Depth, Orchestration]
+IA-2(13) IDENTIFICATION AND AUTHENTICATION | OUT-OF- BAND AUTHENTICATION
+Diversity [Path Diversity]
+Coordinated Protection [Calibrated Defense-in- Depth, Orchestration]
+Segmentation [Predefined Segmentation]
+IA-3(1) DEVICE IDENTIFICATION AND AUTHENTICATION | CRYPTOGRAPHIC BIDIRECTIONAL AUTHENTICATION
+Deception [Obfuscation]
+Substantiated Integrity [Integrity Checks]
+IA-10 ADAPTIVE AUTHENTICATION 
+Adaptive Response [Adaptive Management]
+Privilege Restriction [Dynamic Privileges]
+Coordinated Protection [Calibrated Defense-in- Depth]
+IR-4(2) INCIDENT HANDLING | DYNAMIC RECONFIGURATION
+Adaptive Response [Dynamic Reconfiguration]
+Dynamic Positioning [Functional Relocation of Sensors]
+IR-4(3) INCIDENT HANDLING | CONTINUITY OF OPERATIONS
+Adaptive Response [Dynamic Reconfiguration, Adaptive Management]
+Coordinated Protection [Orchestration]
+IR-4(4) INCIDENT HANDLING | INFORMATION CORRELATION
+Coordinated Protection [Orchestration]
+Analytic Monitoring [Sensor Fusion and Analysis]
+Contextual Awareness [Dynamic Threat Awareness]
+IR-4(9) INCIDENT HANDLING | DYNAMIC RESPONSE CAPABILITY
+Adaptive Response [Dynamic Reconfiguration]
+IR-4(10) INCIDENT HANDLING | SUPPLY CHAIN COORDINATION
+Coordinated Protection [Orchestration]
+IR-4(11) INCIDENT HANDLING | INTEGRATED INCIDENT RESPONSE TEAM
+Adaptive Response [Dynamic Reconfiguration, Adaptive Management]
+Analytic Monitoring [Forensic and Behavioral Analysis]
+Coordinated Protection [Orchestration]
+IR-4(12) INCIDENT HANDLING | MALICIOUS CODE AND FORENSIC ANALYSIS
+Analytic Monitoring [Forensic and Behavioral Analysis]
+Segmentation [Predefined Segmentation]
+IR-4(13) INCIDENT HANDLING | BEHAVIOR ANALYSIS 
+Analytic Monitoring [Monitoring and Damage Assessment]
+Substantiated Integrity [Behavior Validation]
+IR-5 INCIDENT MONITORING 
+Analytic Monitoring [Monitoring and Damage Assessment, Forensic and Behavioral Analysis]
+MA-4(4) NONLOCAL MAINTENANCE | AUTHENTICATION AND SEPARATION OF MAINTENANCE SESSIONS
+Segmentation [Predefined Segmentation]
+PHYSICAL AND ENVIRONMENTAL PROTECTION
+PE-3(5) PHYSICAL ACCESS CONTROL | TAMPER PROTECTION
+Substantiated Integrity [Integrity Checks]
+PE-6 MONITORING PHYSICAL ACCESS 
+Analytic Monitoring [Monitoring and Damage Assessment]
+PE-6(2) MONITORING PHYSICAL ACCESS | AUTOMATED INTRUSION RECOGNITION AND RESPONSES
+Analytic Monitoring [Monitoring and Damage Assessment]
+Adaptive Response [Adaptive Management]
+Coordinated Protection [Orchestration]
+PE-6(4) MONITORING PHYSICAL ACCESS | MONITORING PHYSICAL ACCESS TO SYSTEMS
+Analytic Monitoring [Monitoring and Damage Assessment]
+Coordinated Protection [Calibrated Defense-in- Depth]
+PE-9(1) POWER EQUIPMENT AND CABLING | REDUNDANT CABLING
+Redundancy [Replication]
+PE-11(1) EMERGENCY POWER | ALTERNATE POWER SUPPLY – MINIMAL OPERATIONAL CAPABILITY
+Redundancy [Replication]
+PE-11(2) EMERGENCY POWER | ALTERNATE POWER SUPPLY – SELF-CONTAINED
+Redundancy [Replication]
+PE-17 ALTERNATE WORK SITE Redundancy [Replication]
+PL-8(1) SECURITY AND PRIVACY ARCHITECTURE | DEFENSE IN DEPTH
+Coordinated Protection [Calibrated Defense- in-Depth]
+PL-8(2) SECURITY AND PRIVACY ARCHITECTURE | SUPPLIER DIVERSITY
+Diversity [Supply Chain Diversity]
+PM-7(1) ENTERPRISE ARCHITECTURE | OFFLOADING 
+Realignment [Offloading]
+PM-16 THREAT AWARENESS PROGRAM 
+Contextual Awareness [Dynamic Threat Awareness]
+PM-16(1) THREAT AWARENESS PROGRAM | AUTOMATED MEANS FOR SHARING THREAT INTELLIGENCE
+Contextual Awareness [Dynamic Threat Awareness]
+PM-30(1) SUPPLY CHAIN RISK MANAGEMENT | SUPPLIERS OF CRITICAL OR MISSION-ESSENTIAL ITEMS
+Substantiated Integrity [Provenance Tracking]
+PM-31 CONTINUOUS MONITORING STRATEGY 
+Analytic Monitoring [Monitoring and Damage Assessment, Sensor Fusion and Analysis]
+PM-32 PURPOSING Realignment [Purposing]
+RA-3(2) RISK ASSESSMENT | USE OF ALL-SOURCE INTELLIGENCE
+Contextual Awareness [Dynamic Threat Awareness]
+RA-3(3) RISK ASSESSMENT | DYNAMIC THREAT AWARENESS
+Contextual Awareness [Dynamic Threat Awareness]
+Adaptive Response [Adaptive Management]
+RA-3(4) RISK ASSESSMENT | PREDICTIVE CYBER ANALYTICS 
+Contextual Awareness [ Dynamic Threat Awareness]
+RA-5(4) VULNERABILITY MONITORING AND SCANNING | DISCOVERABLE INFORMATION
+Analytic Monitoring [Monitoring and Damage Assessment]
+RA-5(5) VULNERABILITY MONITORING AND SCANNING | PRIVILEGED ACCESS
+Analytic Monitoring [Monitoring and Damage Assessment]
+Privilege Restriction [Attribute-Based Usage Restriction]
+RA-5(6) VULNERABILITY MONITORING AND SCANNING | AUTOMATED TREND ANALYSES
+Analytic Monitoring [Sensor Fusion and Analysis]
+RA-5(8) VULNERABILITY MONITORING AND SCANNING | REVIEW HISTORIC AUDIT LOGS
+Analytic Monitoring [Sensor Fusion and Analysis]
+RA-5(10) VULNERABILITY MONITORING AND SCANNING | CORRELATE SCANNING INFORMATION
+Analytic Monitoring [Sensor Fusion and Analysis]
+RA-9 CRITICALITY ANALYSIS 
+Contextual Awareness [Mission Dependency and Status Visualization]
+Realignment [Offloading]
+RA-10 THREAT HUNTING 
+Analytic Monitoring [Monitoring and Damage Assessment]
+Contextual Awareness [Dynamic Threat Awareness]
+SA-3(2) SYSTEM DEVELOPMENT LIFECYCLE | USE OF LIVE OR OPERATIONAL DATA
+Segmentation [Predefined Segmentation]
+SA-8(2) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | LEAST COMMON MECHANISM
+Realignment [Offloading, Restriction]
+SA-8(3) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | MODULARITY AND LAYERING
+Coordinated Protection [Calibrated Defense-in- Depth]
+Realignment [Evolvability, Specialization]
+Segmentation [Predefined Segmentation]
+SA-8(4) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | PARTIALLY ORDERED DEPENDENCIES
+Coordinated Protection [Consistency Analysis]
+SA-8(6) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | MINIMIZED SHARING
+Realignment [Purposing, Restriction]
+Segmentation [Predefined Segmentation]
+SA-8(7) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | REDUCED COMPLEXITY
+Realignment [Purposing, Specialization]
+SA-8(8) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | SECURE EVOLVABILITY
+Coordinated Protection [Orchestration]
+Realignment [Evolvability]
+SA-8(13) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | MINIMIZED SECURITY ELEMENTS
+Realignment [Purposing, Restriction]
+SA-8(15) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | PREDICATE PERMISSION
+Privilege Restriction [Trust-Based Privilege Management, Attribute-Based Usage Restriction]
+SA-8(16) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | SELF-RELIANT TRUSTWORTHINESS
+Adaptive Response [Adaptive Management]
+Segmentation [Dynamic Segmentation and Isolation]
+Substantiated Integrity [Integrity Checks]
+SA-8(17) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | SECURE DISTRIBUTED COMPOSITION
+Dynamic Positioning [Distributed Functionality]
+SA-8(18) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | TRUSTED COMMUNICATIONS CHANNELS
+Privilege Restriction [Attribute-Based Usage Restriction]
+SA-8(19) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | CONTINUOUS PROTECTION
+Redundancy [Protected Backup and Restore]
+Substantiated Integrity [Integrity Checks]
+SA-8(31) SECURITY AND PRIVACY ENGINEERING PRINCIPLES | SECURE SYSTEM MODIFICATION
+Realignment [Evolvability]
+SA-9(7) EXTERNAL SYSTEM SERVICES | ORGANIZATION- CONTROLLED INTEGRITY CHECKING
+Substantiated Integrity [Integrity Checks]
+SA-11(2) DEVELOPER TESTING AND EVALUATION | THREAT MODELING AND VULNERABILITY ANALYSIS
+Contextual Awareness [Dynamic Threat Awareness]
+SA-11(5) DEVELOPER TESTING AND EVALUATION | PENETRATION TESTING
+Coordinated Protection [Self-Challenge]
+SA-11(6) DEVELOPER TESTING AND EVALUATION | ATTACK SURFACE REVIEWS
+Realignment [Replacement]
+SA-15(5) DEVELOPMENT PROCESS, STANDARDS, AND TOOLS | ATTACK SURFACE REDUCTION
+Realignment [Replacement]
+SA-17(6) DEVELOPER SECURITY ARCHITECTURE AND DESIGN | STRUCTURE FOR TESTING
+Realignment [Evolvability]
+SA-17(8) DEVELOPER SECURITY ARCHITECTURE AND DESIGN | ORCHESTRATION
+Coordinated Protection [Orchestration]
+SA-17(9) DEVELOPER SECURITY ARCHITECTURE AND DESIGN | DESIGN DIVERSITY
+Diversity [Design Diversity]
+SA-20 CUSTOMIZED DEVELOPMENT OF CRITICAL COMPONENTS
+Realignment [Specialization]
+SA-23 SPECIALIZATION Realignment [Specialization]
+SC-2 SEPARATION OF SYSTEM AND USER FUNCTIONALITY
+Segmentation [Predefined Segmentation]
+SC-2(1) SEPARATION OF SYSTEM AND USER FUNCTIONALITY | INTERFACES FOR NON-PRIVILEGED USERS
+Segmentation [Predefined Segmentation]
+SC-3 SECURITY FUNCTION ISOLATION 
+Segmentation [Predefined Segmentation]
+SC-3(1) SECURITY FUNCTION ISOLATION | HARDWARE SEPARATION
+Segmentation [Predefined Segmentation]
+SC-3(2) SECURITY FUNCTION ISOLATION | ACCESS AND FLOW CONTROL FUNCTIONS
+Segmentation [Predefined Segmentation]
+SC-3(3) SECURITY FUNCTION ISOLATION | MINIMIZE NONSECURITY FUNCTIONALITY
+Realignment [Restriction]
+SC-3(5) SECURITY FUNCTION ISOLATION | LAYERED STRUCTURES
+Coordinated Protection [Orchestration]
+Segmentation [Predefined Segmentation]
+Realignment [Offloading]
+SC-5(2) DENIAL OF SERVICE PROTECTION | CAPACITY, BANDWIDTH, AND REDUNDANCY
+Adaptive Response [Dynamic Resource Allocation]
+Redundancy [Surplus Capacity]
+SC-5(3) DENIAL OF SERVICE PROTECTION | DETECTION AND MONITORING
+Analytic Monitoring [Monitoring and Damage Assessment]
+SC-7 BOUNDARY PROTECTION 
+Segmentation [Predefined Segmentation]
+SC-7(10) BOUNDARY PROTECTION | PREVENT EXFILTRATION
+Analytic Monitoring [Monitoring and Damage Assessment]
+Non-Persistence [Non-Persistent Information, Non-Persistent Connectivity]
+Coordinated Protection [Self-Challenge]
+SC-7(11) BOUNDARY PROTECTION | RESTRICT INCOMING COMMUNICATIONS TRAFFIC
+Substantiated Integrity [Provenance Tracking]
+SC-7(13) BOUNDARY PROTECTION | ISOLATION OF SECURITY TOOLS, MECHANISMS, AND SUPPORT COMPONENTS
+Segmentation [Predefined Segmentation]
+SC-7(15) BOUNDARY PROTECTION | NETWORK PRIVILEGE ACCESSES
+Realignment [Offloading]
+Segmentation [Predefined Segmentation]
+Privilege Restriction [Trust-Based Privileged Management]
+SC-7(16) BOUNDARY PROTECTION | PREVENT DISCOVERY OF SYSTEM COMPONENTS
+Deception [Obfuscation]
+Dynamic Positioning [Functional Relocation of Cyber Resources]
+SC-7(20) BOUNDARY PROTECTION | DYNAMIC ISOLATION AND SEGREGATION
+Segmentation [Dynamic Segmentation and Isolation]
+Adaptive Response [Dynamic Reconfiguration]
+SC-7(21) BOUNDARY PROTECTION | ISOLATION OF SYSTEM COMPONENTS
+Segmentation [Predefined Segmentation]
+SC-7(22) BOUNDARY PROTECTION | SEPARATE SUBNETS FOR CONNECTING TO DIFFERENT SECURITY DOMAINS
+Segmentation [Predefined Segmentation]
+SC-7(29) BOUNDARY PROTECTION | SEPARATE SUBNETS TO ISOLATE FUNCTIONS
+Segmentation [Predefined Segmentation]
+SC-8(1) TRANSMISSION CONFIDENTIALITY AND INTEGRITY | CRYPTOGRAPHIC PROTECTION
+Deception [Obfuscation]
+Substantiated Integrity [Integrity Checks]
+SC-8(4) TRANSMISSION CONFIDENTIALITY AND INTEGRITY | CONCEAL OR RANDOMIZE COMMUNICATIONS
+Deception [Obfuscation]
+Unpredictability [Contextual Unpredictability]
+SC-8(5) TRANSMISSION CONFIDENTIALITY AND INTEGRITY | PROTECTED DISTRIBUTION SYSTEM
+Substantiated Integrity [Integrity Checks]
+Segmentation [Predefined Segmentation]
+SC-10 NETWORK DISCONNECT 
+Non-Persistence [Non-Persistent Connectivity]
+SC-11 TRUSTED PATH 
+Segmentation [Predefined Segmentation]
+Substantiated Integrity [Provenance Tracking]
+SC-15(1) COLLABORATIVE COMPUTING DEVICES | PHYSICAL OR LOGICAL DISCONNECT
+Non-Persistence [Non-Persistent Connectivity]
+SC-16(1) TRANSMISSION OF SECURITY AND PRIVACY ATTRIBUTES | INTEGRITY VERIFICATION
+Substantiated Integrity [Integrity Checks]
+SC-16(3) TRANSMISSION OF SECURITY AND PRIVACY ATTRIBUTES | CRYPTOGRAPHIC BINDING
+Substantiated Integrity [Integrity Checks]
+SC-18(5) MOBILE CODE | ALLOW EXECUTION ONLY IN CONFINED ENVIRONMENTS
+Segmentation [Dynamic Segmentation and Isolation]
+SC-22 ARCHITECTURE AND PROVISIONING FOR NAME/ADDRESS RESOLUTION SERVICE
+Redundancy [Replication]
+SC-23(3) SESSION AUTHENTICITY | UNIQUE SYSTEM- GENERATED SESSION IDENTIFIERS
+Non-Persistence [Non-Persistent Information]
+Unpredictability [Temporal Unpredictability] 
+SC-25 THIN NODES 
+Realignment [Offloading, Restriction]
+Non-Persistence [Non-Persistent Services, Non- Persistent Information]
+SC-26 DECOYS Deception [Misdirection]
+Analytic Monitoring [Monitoring and Damage Assessment, Forensic and Behavioral Analysis]
+SC-27 PLATFORM-INDEPENDENT APPLICATIONS 
+Diversity [Architectural Diversity]
+Realignment [Evolvability]
+SC-28(1) PROTECTION OF INFORMATION AT REST | CRYPTOGRAPHIC PROTECTION
+Deception [Obfuscation]
+Substantiated Integrity [Integrity Checks]
+SC-29 HETEROGENEITY 
+Diversity [Architectural Diversity]
+SC-29(1) HETEROGENEITY | VIRTUALIZATION TECHNIQUES 
+Diversity [Architectural Diversity]
+Non-Persistence [Non-Persistent Services]
+SC-30 CONCEALMENT AND MISDIRECTION 
+Deception [Obfuscation, Misdirection]
+SC-30(2) CONCEALMENT AND MISDIRECTION | RANDOMNESS
+Unpredictability [Temporal Unpredictability, Contextual Unpredictability]
+SC-30(3) CONCEALMENT AND MISDIRECTION | CHANGE PROCESSING AND STORAGE LOCATIONS
+Dynamic Positioning [Asset Mobility, Functional Relocation of Cyber Resources]
+Unpredictability [Temporal Unpredictability]
+SC-30(4) CONCEALMENT AND MISDIRECTION | MISLEADING INFORMATION
+Deception [Disinformation]
+SC-30(5) CONCEALMENT AND MISDIRECTION | CONCEALMENT OF SYSTEM COMPONENTS
+Deception [Obfuscation]
+SC-32 SYSTEM PARTITIONING 
+Segmentation [Predefined Segmentation]
+SC-32(1) SYSTEM PARTITIONING | SEPARATE PHYSICAL DOMAINS FOR PRIVILEGED FUNCTIONS
+Segmentation [Predefined Segmentation, Dynamic Segmentation and Isolation]
+SC-34 NON-MODIFIABLE EXECUTABLE PROGRAMS 
+Substantiated Integrity [Integrity Checks]
+SC-34(1) NON-MODIFIABLE EXECUTABLE PROGRAMS | NO WRITABLE STORAGE
+Non-Persistence [Non-Persistent Information]
+SC-34(2) NON-MODIFIABLE EXECUTABLE PROGRAMS | INTEGRITY PROTECTION ON READ-ONLY MEDIA
+Substantiated Integrity [Integrity Checks]
+SC-35 EXTERNAL MALICIOUS CODE IDENTIFICATION 
+Analytic Monitoring [Monitoring and Damage
+Assessment, Forensic and Behavioral Analysis]
+Deception [Misdirection]
+Segmentation [Dynamic Segmentation and Isolation]
+SC-36 DISTRIBUTED PROCESSING AND STORAGE 
+Dynamic Positioning [Distributed Functionality, Functional Relocation of Cyber Resources]
+Redundancy [Replication]
+SC-36(1) DISTRIBUTED PROCESSING AND STORAGE | POLLING TECHNIQUES
+Adaptive Response [Adaptive Management]
+Substantiated Integrity [Behavior Validation]
+SC-36(2) DISTRIBUTED PROCESSING AND STORAGE | SYNCHRONIZATION
+Redundancy [Replication]
+Coordinated Protection [Orchestration]
+SC-37 OUT-OF-BAND CHANNELS 
+Diversity [Path Diversity]
+SC-39 PROCESS ISOLATION 
+Segmentation [Predefined Segmentation,
+Dynamic Segmentation and Isolation]
+SC-39(1) PROCESS ISOLATION | HARDWARE SEPARATION 
+Segmentation [Predefined Segmentation,
+Dynamic Segmentation and Isolation]
+SC-39(2) PROCESS ISOLATION | SEPARATION EXECUTION DOMAINS PER THREAD
+Segmentation [Predefined Segmentation, Dynamic Segmentation and Isolation]
+SC-40(2) WIRELESS LINK PROTECTION | REDUCE DETECTION POTENTIAL
+Deception [Obfuscation]
+SC-40(3) WIRELESS LINK PROTECTION | IMITATIVE OR MANIPULATIVE COMMUNICATIONS DECEPTION
+Deception [Obfuscation]
+Unpredictability [Temporal Unpredictability, Contextual Unpredictability]
+SC-44 DETONATION CHAMBERS 
+Segmentation [Predefined Segmentation]
+Analytic Monitoring [Forensic and Behavioral Analysis]
+Deception [Misdirection]
+SC-46 CROSS-DOMAIN POLICY ENFORCEMENT 
+Segmentation [Predefined Segmentation]
+SC-47 ALTERNATE COMMUNICATION PATHS 
+Diversity [Path Diversity]
+SC-48 SENSOR RELOCATION 
+Dynamic Positioning [Functional Relocation of Sensors]
+SC-48(1) SENSOR RELOCATION | DYNAMIC RELOCATION OF SENSORS OR MONITORING CAPABILITIES
+Dynamic Positioning [Functional Relocation of Sensors]
+SC-49 HARDWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT
+Segmentation [Predefined Segmentation]
+SC-50 SOFTWARE-ENFORCED SEPARATION AND POLICY ENFORCEMENT
+Segmentation [Predefined Segmentation]
+SC-51 NON-MODIFIABLE EXECUTABLE PROGRAMS | HARDWARE-BASED PROTECTION
+Substantiated Integrity [Integrity Checks]
+SI-3(10) MALICIOUS CODE PROTECTION | MALICIOUS CODE ANALYSIS
+Analytic Monitoring [Forensic and Behavioral Analysis]
+SI-4(1) SYSTEM MONITORING | SYSTEM-WIDE INTRUSION DETECTION SYSTEM
+Analytic Monitoring [Sensor Fusion and Analysis]
+Contextual Awareness [Mission Dependency and Status Visualization]
+SI-4(2) SYSTEM MONITORING | AUTOMATED TOOLS AND MECHANISMS FOR REAL-TIME ANALYSIS
+Analytic Monitoring [Monitoring and Damage Assessment]
+Contextual Awareness [Mission Dependency and Status Visualization]
+Substantiated Integrity [Behavior Validation]
+SI-4(3) SYSTEM MONITORING | AUTOMATED TOOL AND MECHANISM INTEGRATION
+Analytic Monitoring [Sensor Fusion and Analysis]
+Adaptive Response [Adaptive Management]
+SI-4(4) SYSTEM MONITORING | INBOUND AND OUTBOUND COMMUNICATIONS TRAFFIC
+Analytic Monitoring [Monitoring and Damage Assessment]
+Substantiated Integrity [Behavior Validation]
+SI-4(7) SYSTEM MONITORING | AUTOMATED RESPONSE TO SUSPICIOUS EVENTS
+Analytic Monitoring [Monitoring and Damage Assessment]
+Adaptive Response [Adaptive Management]
+SI-4(10) SYSTEM MONITORING | VISIBILITY OF ENCRYPTED COMMUNICATIONS
+Analytic Monitoring [Monitoring and Damage Assessment]
+SI-4(11) SYSTEM MONITORING | ANALYZE COMMUNICATIONS TRAFFIC ANOMALIES
+Analytic Monitoring [Monitoring and Damage Assessment]
+SI-4(13) SYSTEM MONITORING | ANALYZE TRAFFIC AND EVENT PATTERNS
+Analytic Monitoring [Monitoring and Damage Assessment]
+Substantiated Integrity [Behavior Validation]
+SI-4(16) SYSTEM MONITORING | CORRELATE MONITORING INFORMATION
+Analytic Monitoring [Sensor Fusion and Analysis]
+Contextual Awareness [Dynamic Resource Awareness]
+SI-4(17) SYSTEM MONITORING | INTEGRATED SITUATIONAL AWARENESS
+Analytic Monitoring [Sensor Fusion and Analysis]
+Contextual Awareness [Dynamic Resource Awareness]
+SI-4(18) SYSTEM MONITORING | ANALYZE TRAFFIC AND COVERT EXFILTRATION
+Analytic Monitoring [Monitoring and Damage Assessment]
+SI-4(24) SYSTEM MONITORING | INDICATORS OF COMPROMISE
+Analytic Monitoring [Monitoring and Damage Assessment, Sensor Fusion and Analysis]
+SI-4(25) SYSTEM MONITORING | OPTIMIZE NETWORK TRAFFIC ANALYSIS
+Analytic Monitoring [Monitoring and Damage Assessment, Sensor Fusion and Analysis]
+SI-6 SECURITY AND PRIVACY FUNCTION VERIFICATION 
+Substantiated Integrity [Integrity Checks]
+SI-7 SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY
+Substantiated Integrity [Integrity Checks]
+SI-7(1) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | INTEGRITY CHECKS
+Substantiated Integrity [Integrity Checks]
+SI-7(5) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | AUTOMATED RESPONSE TO INTEGRITY VIOLATIONS
+Substantiated Integrity [Integrity Checks]
+Adaptive Response [Adaptive Management]
+SI-7(6) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | CRYPTOGRAPHIC PROTECTION
+Substantiated Integrity [Integrity Checks]
+SI-7(7) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | INTEGRATION OF DETECTION AND RESPONSE
+Substantiated Integrity [Integrity Checks]
+Analytic Monitoring [Monitoring and Damage Assessment]
+SI-7(9) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | VERIFY BOOT PROCESS
+Substantiated Integrity [Integrity Checks]
+SI-7(10) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | PROTECTION OF BOOT FIRMWARE
+Substantiated Integrity [Integrity Checks]
+SI-7(12) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | INTEGRITY VERIFICATION
+Substantiated Integrity [Integrity Checks]
+SI-7(15) SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | CODE AUTHENTICATION
+Substantiated Integrity [Provenance Tracking]
+SI-10(3) INFORMATION INPUT VALIDATION |PREDICTABLE BEHAVIOR
+Substantiated Integrity [Behavior Validation]
+SI-10(5) INFORMATION INPUT VALIDATION | RESTRICT INPUTS TO TRUSTED SOURCES AND APPROVED FORMATS
+Substantiated Integrity [Provenance Tracking]
+SI-14 NON-PERSISTENCE 
+Non-Persistence [Non-Persistent Services]
+SI-14(1) NON-PERSISTENCE | REFRESH FROM TRUSTED SOURCES
+Non-Persistence [Non-Persistent Services, Non- Persistent Information]
+Substantiated Integrity [Provenance Tracking]
+SI-14(2) NON-PERSISTENCE | NON-PERSISTENT INFORMATION
+Non-Persistence [Non-Persistent Information]
+SI-14(3) NON-PERSISTENCE | NON-PERSISTENT CONNECTIVITY
+Non-Persistence [Non-Persistent Connectivity]
+SI-15 INFORMATION OUTPUT FILTERING 
+Substantiated Integrity [Integrity Checks]
+SI-16 MEMORY PROTECTION 
+Diversity [Synthetic Diversity]
+Realignment [Restriction]
+Unpredictability [Temporal Unpredictability]
+SI-19(4) DE-IDENTIFICATION | REMOVAL, MASKING, ENCRYPTION, HASHING, OR REPLACEMENT OF DIRECT IDENTIFIERS
+Deception [Obfuscation]
+SI-19(6) DE-IDENTIFICATION | DIFFERENTIAL PRIVACY 
+Deception [Obfuscation]
+Uncertainty [Contextual Uncertainty]
+SI-19(8) DE-IDENTIFICATION | MOTIVATED INTRUDER 
+Coordinated Protection [Self-Challenge]
+SI-20 TAINTING 
+Deception [Tainting]
+SI-21 INFORMATION REFRESH 
+Non-Persistence [Non-Persistent Information]
+SI-22 INFORMATION DIVERSITY 
+Diversity [Information Diversity]
+SI-23 INFORMATION FRAGMENTATION 
+Dynamic Positioning [Fragmentation]
+SR-3(1) SUPPLY CHAIN CONTROLS AND PROCESSES | DIVERSE SUPPLY CHAIN
+Diversity [Supply Chain Diversity]
+SR-3(2) SUPPLY CHAIN CONTROLS AND PROCESSES | LIMITATION OF HARM
+Diversity [Supply Chain Diversity]
+Deception [Obfuscation]
+SR-4 PROVENANCE 
+Substantiated Integrity [Provenance Tracking]
+SR-4(1) PROVENANCE | IDENTITY 
+Substantiated Integrity [Provenance Tracking]
+SR-4(2) PROVENANCE | TRACK AND TRACE 
+Substantiated Integrity [Provenance Tracking]
+SR-4(3) PROVENANCE | VALIDATE AS GENUINE AND NOT ALTERED
+Substantiated Integrity [Integrity Checks, Provenance Tracking]
+SR-4(4) PROVENANCE | SUPPLY CHAIN INTEGRITY – PEDIGREE
+Substantiated Integrity [Provenance Tracking]
+SR-5 ACQUISITION STRATEGIES, TOOLS, AND METHODS 
+Substantiated Integrity [Integrity Checks, Provenance Tracking]
+Deception [Obfuscation]
+SR-5(1) ACQUISITION STRATEGIES, TOOLS, AND METHODS | ADEQUATE SUPPLY
+Redundancy [Replication]
+Diversity [Supply Chain Diversity]
+SR-6(1) SUPPLIER ASSESSMENTS AND REVIEWS | TESTING AND ANALYSIS
+Coordinated Protection [Self-Challenge]
+Analytic Monitoring [Monitoring and Damage Assessment]
+SR-7 SUPPLY CHAIN OPERATIONS SECURITY 
+Deception [Obfuscation, Disinformation, Self- Challenge]
+SR-9 TAMPER RESISTANCE AND DETECTION 
+Substantiated Integrity [Integrity Checks]
+SR-9(1) TAMPER RESISTANCE AND DETECTION | MULTIPLE STAGES OF SYSTEM DEVELOPMENT LIFE CYCLE
+Substantiated Integrity [Integrity Checks]
+Deception [Obfuscation]
+SR-10 INSPECTION OF SYSTEMS OR COMPONENTS Substantiated Integrity [Integrity Checks]
+Analytic Monitoring [Monitoring and Damage Assessment, Forensic and Behavioral Analysis]
+SR-11 COMPONENT AUTHENTICITY 
+Substantiated Integrity [Integrity Checks, Provenance Tracking]
+SR-11(3) COMPONENT AUTHENTICITY | ANTI-COUNTERFEIT SCANNING
+Substantiated Integrity [Integrity Checks]

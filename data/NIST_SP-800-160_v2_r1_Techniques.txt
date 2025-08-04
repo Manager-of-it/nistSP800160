@@ -1,0 +1,15 @@
+1.  Adaptive Response: Implement agile courses of action to manage risks.
+2. Analytic Monitoring: Monitor and analyze a wide range of properties and behaviors on an ongoing basis and in a coordinated way.
+3.  Contextual Awareness: Construct and maintain current representations of the posture of missions or business functions while considering threat events and courses of action.
+4.  Coordinated Protection: Ensure that protection mechanisms operate in a coordinated and effective manner.
+5.  Deception: Mislead, confuse, hide critical assets from, or expose covertly tainted assets to the adversary.
+6.  Diversity: Use heterogeneity to minimize common mode failures, particularly threat events exploiting common vulnerabilities.
+7.  Dynamic Positioning: Distribute and dynamically relocate functionality or system resources.
+8.  Non-Persistence: Generate and retain resources as needed or for a limited time.
+9. Privilege Restriction: Restrict privileges based on attributes of users and system
+elements, as well as on environmental factors.
+10. Realignment: Structure systems and resource uses to align with mission or business function needs, reduce current and anticipated risks, and accommodate the evolution of technical, operational, and threat environments.
+11. Redundancy: Provide multiple protected instances of critical resources.
+12. Segmentation: Define and separate system elements based on criticality and trustworthiness.
+13. Substantiated Integrity: Ascertain whether critical system elements have been corrupted.
+14. Unpredictability: Make changes randomly or unpredictably.
