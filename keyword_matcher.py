@@ -9,7 +9,7 @@ KEYWORD_FILE = os.path.join(BASE_DIR, "data/keyword_file.txt")
 CONTROL_CSV = os.path.join(BASE_DIR, "data/NIST_SP-800-53_rev5_catalog_load.csv")
 CONTROL_TEXT_COLUMN = "control_text"
 CONTROL_IDS_FILE = os.path.join(BASE_DIR, "data/controls_ids.txt")
-MATCH_DEPTH = 3  # Set the depth threshold for matches
+MATCH_DEPTH = 2  # Set the depth threshold for matches
 
 def load_keywords(keyword_file):
     with open(keyword_file, "r", encoding="utf-8") as f:
